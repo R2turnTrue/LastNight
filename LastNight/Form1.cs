@@ -42,6 +42,7 @@ namespace LastNight
                 MessageBox.Show("진짜 마지막 경고입니다. 이 파일은 바이러스이고, 당신의 컴퓨터를 망가뜨립니다.\n" +
                                 "개발자에게 고소장을 날려도 책임지지 않습니다. 예를 누를경우 이 내용을 읽었다고 간주하겠습니다.\n" +
                                 "제발 궁금하다고 실제 컴퓨터에서 실행하시지 말아주세요.", "LastNight - LAST WARNING!!!!!!!", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
+                 MessageBox.Show("유튜브에서 보시고 나서 재밌겠다! 싶어서 실행하시는분들에게 알려드립니다. 유튜브에 영상은 가상 머신이라는것을 이용한 영상입니다. 실제 컴퓨터가 아니에요. 그런데 그걸 실제 컴퓨터에서 실행시킨다는건 정말로 말도 안되는거에요. 실행전 한번만 더 생각해주세요.", "LastNight - LAST WARNING!!", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes &&
             {
                 /*
                 Process.Start("notepad.exe");
